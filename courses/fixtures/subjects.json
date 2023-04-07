@@ -1,0 +1,58 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "basico paineis-solares",
+    "slug": "basico-paineis-solares"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "Como instalar a suporte para os paineis",
+    "slug": "como-instalar-a-suporte-para-os-paineis",
+    "overview": "Este Capitulo apresentaremos como instalar o suporte de sustentacao da estrutura, base para os paineis solares.",
+    "created": "2022-05-17T21:27:36.991Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "Passa telha viga vertical",
+    "description": "Para vigas verticais"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 1,
+    "title": "Passa telha para vigas Horizontais",
+    "description": "Para vigas Horizontais"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 3,
+  "fields": {
+    "course": 1,
+    "title": "Passa telha para placa",
+    "description": "Nos casos onde nao ha vigas mas sim placa de cimento."
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 4,
+  "fields": {
+    "course": 1,
+    "title": "Instalando em chapas metalicas(Sandwich)",
+    "description": "Como instalar em Chapas metalicas"
+  }
+}
+]
